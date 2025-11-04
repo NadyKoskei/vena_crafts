@@ -8,6 +8,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
     <title>Store landing page</title>
   </head>
   <body class="h-full bg-neutral-100 box-border">
@@ -17,9 +21,9 @@
       <nav
         class="flex bg-neutral-100 justify-between items-center w-full pt-2 ml-7 mr-8"
       >
-        <h1 class="font-bold text-xl">VENA CRAFTS</h1>
+        <p class="font-bold text-xl">VENA CRAFTS</p>
 
-        <ul class="flex gap-5 justify-end">
+        <ul class="flex gap-4 justify-end">
           <li><a href="#hero-section">Home</a></li>
           <li><a href="#product-section">Products</a></li>
           <li><a href="#aboutus-section">About</a></li>
@@ -29,18 +33,106 @@
       </nav>
     </header>
 
-    <main class="main-cont">
-      <div id="hero-section" class="h-110 mt-5 bg-white flex">
-        <div><img src="assets/images/shop1.jpeg" alt="" class="w-90" /></div>
+    <main class="main-cont grid gap-3 grid-flow-row auto-rows-auto">
+      <div
+        id="hero-section"
+        class="mt-5 bg-white grid grid-cols-2 auto-cols-auto"
+      >
+        <div class="mt-2">
+          <img src="assets/images/shop1.jpeg" alt="" class="h-90" />
+        </div>
 
         <div class="mt-12 text-4xl">
           <p>Its not just hand made, its heart made</p>
           <p>so go ahead, make the purchase</p>
+          <button type="button" class="btn btn-primary">Shop Now</button>
         </div>
       </div>
-      <div id="product-section" class="h-110 bg bg-neutral-50"></div>
-
-      <div id="aboutus-section" class="h-110 bg bg-neutral-100"></div>
+      <div
+        id="product-section"
+        class="bg bg-neutral-50 grid grid-flow-row auto-rows-auto"
+      >
+        <div>
+          <p class="">In Store for you</p>
+          <p>all aur products are hand made</p>
+        </div>
+        <div id="items-section" class="grid auto-cols-auto">
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+        </div>
+        <div id="sample-section" class="grid">
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+          <div><img src="" alt="" /></div>
+        </div>
+      </div>
+      <!--about us-->
+      <div
+        id="aboutus-section"
+        class="bg bg-neutral-100 grid grid-flow-row auto-row-auto border-2 border-gray-100  p-6 mt-2 rounded-md shadow-xl ml-3 mr-3 mb-3"
+      >
+        <!--who we are-->
+        <div id="whoweare-section" class=" bg-white grid gap-2 grid-flow-col auto-col-auto ">
+          <div>
+            <img
+              src="assets/images/hand-drawn-creative-woman-painting-at-home-vector.jpg"
+              alt=""
+              class="h-40"
+            />
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam
+              alias officiis aperiam dolor ipsa. Voluptas vitae sapiente dolor
+              ipsa quibusdam voluptates iste.
+            </p>
+          </div>
+        </div>
+        <!--our servives-->
+        <div
+          id="services-section"
+          class=" bg-white grid gap-2 grid-flow-col auto-col-auto"
+        >
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam
+              alias officiis aperiam dolor ipsa. Voluptas vitae sapiente dolor
+              ipsa quibusdam voluptates iste.
+            </p>
+          </div>
+          <div>
+            <img
+              src="assets/images/online-delivery-service-concept-online-order-tracking-delivery-home-and-office-vector.jpg"
+              alt=""
+              class="h-40"
+            />
+          </div>
+        </div>
+        <!--contact us-->
+        <div
+          id="contact-section"
+          class="bg-white grid gap-2 grid-flow-col auto-col-auto"
+        >
+          <div>
+            <img
+              src="assets/images/cartoon-man-on-laptop-vector.jpg"
+              alt=""
+              class="h-40"
+            />
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam
+              alias officiis aperiam dolor ipsa. Voluptas vitae sapiente dolor
+              ipsa quibusdam voluptates iste.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer
