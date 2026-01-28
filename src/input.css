@@ -1,13 +1,10 @@
 @import "tailwindcss";
 
 .main-cont{
-    @apply pb-4 pl-3 pr-3 mb-3
+    @apply pb-4 pl-4 pr-4 mb-3 ml-2 mr-2
 }
 
 .grid-row{
      @apply grid grid-flow-row auto-rows-auto
 }
 
-.circle-img{
-    @apply w-32 h-32 rounded-full object-cover;
-}
