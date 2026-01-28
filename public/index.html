@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -33,80 +33,97 @@
       </nav>
     </header>
 
-    <main class="main-cont grid gap-3 grid-flow-row auto-rows-auto">
+    <main class="main-cont grid grid-flow-row auto-rows-auto">
       <div
         id="hero-section"
-        class="mt-5 bg-white grid grid-cols-2 auto-cols-auto"
+        class="mt-5 bg-white grid grid-flow-col auto-cols-auto place-items-center"
       >
         <div class="mt-2">
-          <img src="assets/images/shop1.jpeg" alt="" class="h-80" />
+          <img src="assets/images/shop1.jpeg" alt="" class="h-94" />
         </div>
 
-        <div class="mt-12 text-4xl">
-          <p>Its not just hand made, its heart made</p>
-          <p>go ahead and make the purchase</p>
-          <button type="button" class="btn btn-primary">Shop Now</button>
+        <div
+          class="mt-12 text-xl d-flex flex-col align-items-center text-center"
+        >
+          <p>
+            Every purchase supports independent artists, helping them share
+            their stories and sustain their craft. From unique home décor to
+            inspired accessories, each item is more than just a product—it’s a
+            spark of creativity that connects communities and spreads artistry
+            worldwide.
+          </p>
+          <p>
+            Its not just hand made, its heart made, go ahead and make the
+            purchase
+          </p>
+          <div>
+            <button type="button" class="btn btn-primary">Shop Now</button>
+          </div>
         </div>
       </div>
 
       <!--product section-->
       <div
         id="product-section"
-        class="bg bg-neutral-50 grid grid-flow-row auto-rows-auto"
+        class="bg bg-neutral-100 grid grid-flow-row auto-rows-auto border-2 border-gray-100 p-3 mt-2 rounded-md shadow-xl ml-1 mr-1 mb-1"
       >
-        <p class="text-center font-bold text-xl">In Store</p>
+        <p class="text-center font-bold text-xl">Explore Best Deals</p>
+        <div class="d-flex flex-col align-items-center">
+ <p class="">a compilation of our best products</p>
+        </div>
+       
 
         <div
           id="items-section"
-          class="grid grid-flow-row auto-rows-auto grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-2"
+          class="grid grid-flow-row auto-rows-auto grid-cols-2 sm:grid-cols-2 md:grid-cols-4 place-items-center"
         >
-          <div>
-            <img
-              src="assets/images/character-set-of-people-shopping-vector.jpg"
-              alt=""
-              class="circle-img"
-            />
+          <div
+            id="item-card"
+            class="bg-white border-2 border-gray-100 rounded-md"
+          >
+            <div>
+              <img src="assets/images/b51b439f578dc4447fb5b47d927049da.jpg" alt="" class="h-72" />
+            </div>
+            <div>
+              <p>the price goes here</p>
+            </div>
           </div>
-          <div>
-            <img
-              src="assets/images/character-set-of-people-shopping-vector.jpg"
-              alt=""
-              class="circle-img"
-            />
+
+          <div
+            id="item-card"
+            class="bg-white border-2 border-gray-100 rounded-md"
+          >
+            <div>
+              <img src="assets/images/f8ff0c3d44ee8b2beed829bad1516a74.jpg" alt="" class="h-72" />
+            </div>
+            <div>
+              <p>the price goes here</p>
+            </div>
           </div>
-          <div>
-            <img
-              src="assets/images/character-set-of-people-shopping-vector.jpg"
-              alt=""
-              class="circle-img"
-            />
+
+          <div
+            id="item-card"
+            class="bg-white border-2 border-gray-100 rounded-md"
+          >
+            <div>
+              <img src="assets/images/bb138415667bb90d0da6becc197fbbae.jpg" alt="" class="h-72" />
+            </div>
+            <div>
+              <p>the price goes here</p>
+            </div>
           </div>
-          <div>
-            <img
-              src="assets/images/character-set-of-people-shopping-vector.jpg"
-              alt=""
-              class="circle-img"
-            />
+
+          <div
+            id="item-card"
+            class="bg-white border-2 border-gray-100 rounded-md"
+          >
+            <div>
+              <img src="assets/images/ffac7e3666ec6734ff7508b33bc7c059.jpg" alt="" class="h-72" />
+            </div>
+            <div>
+              <p>the price goes here</p>
+            </div>
           </div>
-          <div>
-            <img
-              src="assets/images/character-set-of-people-shopping-vector.jpg"
-              alt=""
-              class="circle-img"
-            />
-          </div>
-          <div>
-            <img
-              src="assets/images/character-set-of-people-shopping-vector.jpg"
-              alt=""
-              class="circle-img"
-            />
-          </div>
-        </div>
-        <div id="sample-section" class="grid">
-          <div><img src="" alt="" /></div>
-          <div><img src="" alt="" /></div>
-          <div><img src="" alt="" /></div>
         </div>
       </div>
       <!--about us-->
@@ -127,26 +144,48 @@
               class="h-60 w-auto"
             />
           </div>
+        <div
+          class="mt-12 d-flex flex-col align-items-center text-center"
+        >
+          <p>
+            Every purchase supports independent artists, helping them share
+            their stories and sustain their craft. From unique home décor to
+            inspired accessories, each item is more than just a product—it’s a
+            spark of creativity that connects communities and spreads artistry
+            worldwide.
+          </p>
+          <p>
+            Its not just hand made, its heart made, go ahead and make the
+            purchase
+          </p>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam
-              alias officiis aperiam dolor ipsa. Voluptas vitae sapiente dolor
-              ipsa quibusdam voluptates iste.
-            </p>
+            <button type="button" class="btn btn-primary">Shop Now</button>
           </div>
+        </div>
         </div>
         <!--our servives-->
         <div
           id="services-section"
           class="bg-white grid gap-2 grid-flow-col auto-col-auto"
         >
+        <div
+          class="mt-12 d-flex flex-col align-items-center text-center"
+        >
+          <p>
+            Every purchase supports independent artists, helping them share
+            their stories and sustain their craft. From unique home décor to
+            inspired accessories, each item is more than just a product—it’s a
+            spark of creativity that connects communities and spreads artistry
+            worldwide.
+          </p>
+          <p>
+            Its not just hand made, its heart made, go ahead and make the
+            purchase
+          </p>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam
-              alias officiis aperiam dolor ipsa. Voluptas vitae sapiente dolor
-              ipsa quibusdam voluptates iste.
-            </p>
+            <button type="button" class="btn btn-primary">Shop Now</button>
           </div>
+        </div>
           <div>
             <img
               src="assets/images/online-delivery-service-concept-online-order-tracking-delivery-home-and-office-vector.jpg"
